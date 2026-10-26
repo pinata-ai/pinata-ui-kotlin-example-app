@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/wallet"
+      android:title="@string/wallet" />
+    <item
+      android:id="@+id/preview"
+      android:title="@string/preview" />
+    <item
+      android:id="@+id/fullShopping"
+      android:title="@string/full_shopping" />
+  </group>
+
+  <group android:id="@+id/account">
+    <item
+      android:id="@+id/logout"
+      android:title="@string/logout" />
+  </group>
+
+</menu>

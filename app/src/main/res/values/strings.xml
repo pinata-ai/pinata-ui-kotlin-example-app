@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">Pinata UI Kotlin Example</string>
+  <string name="client_id">Client ID</string>
+  <string name="client_key">Client Key</string>
+  <string name="client_secret">Client Secret</string>
+  <string name="user_email">User Email</string>
+  <string name="login">Login</string>
+  <string name="logout">Logout</string>
+  <string name="wallet">Wallet</string>
+  <string name="preview">Preview</string>
+  <string name="full_shopping">Full Shopping</string>
+  <string name="open_menu">Open menu</string>
+  <string name="close_menu">Close menu</string>
+</resources>

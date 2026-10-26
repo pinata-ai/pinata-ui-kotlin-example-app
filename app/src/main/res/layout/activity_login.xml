@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fitsSystemWindows="true"
+  android:gravity="center_vertical"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <EditText
+    android:id="@+id/clientId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/client_id"
+    android:importantForAutofill="no"
+    android:inputType="text" />
+
+  <EditText
+    android:id="@+id/clientKey"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/client_key"
+    android:importantForAutofill="no"
+    android:inputType="text" />
+
+  <EditText
+    android:id="@+id/clientSecret"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/client_secret"
+    android:importantForAutofill="no"
+    android:inputType="textPassword" />
+
+  <EditText
+    android:id="@+id/userEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/user_email"
+    android:importantForAutofill="no"
+    android:inputType="textEmailAddress" />
+
+  <Button
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="@string/login" />
+
+</LinearLayout>
