@@ -42,7 +42,7 @@ android {
 kotlin.compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
 
 dependencies {
-  implementation("ai.pinata:pinata-ui:0.1.0")
+  implementation("ai.pinata:pinata-ui:0.1.1")
   implementation("androidx.appcompat:appcompat:1.7.0")
   implementation("com.google.android.material:material:1.12.0")
 }
