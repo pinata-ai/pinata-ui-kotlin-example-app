@@ -105,9 +105,17 @@ class MainActivity : AppCompatActivity() {
     view.onErrorListener = OnPinataErrorListener { message ->
       Toast.makeText(this, "Pinata error: $message", Toast.LENGTH_LONG).show()
     }
+    destroyShown()
     screen.removeAllViews()
     screen.addView(view)
     view.load()
+  }
+
+  private fun destroyShown() = (screen.getChildAt(0) as? PinataComponentView)?.destroy()
+
+  override fun onDestroy() {
+    destroyShown()
+    super.onDestroy()
   }
 
   private fun logout() {
